@@ -7,25 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB86CE66299DDC3400913EFF /* ConnectionGateWaySAT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB86CE65299DDC3300913EFF /* ConnectionGateWaySAT.framework */; };
+		FB86CE67299DDC3400913EFF /* ConnectionGateWaySAT.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FB86CE65299DDC3300913EFF /* ConnectionGateWaySAT.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FB86CE71299DDC6B00913EFF /* MiniAppB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB86CE6E299DDC6400913EFF /* MiniAppB.framework */; };
+		FB86CE72299DDC6B00913EFF /* MiniAppB.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FB86CE6E299DDC6400913EFF /* MiniAppB.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FBE8A39529823382005BE645 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE8A39429823382005BE645 /* AppDelegate.swift */; };
 		FBE8A39729823382005BE645 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE8A39629823382005BE645 /* SceneDelegate.swift */; };
 		FBE8A39929823382005BE645 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE8A39829823382005BE645 /* ViewController.swift */; };
 		FBE8A39C29823382005BE645 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBE8A39A29823382005BE645 /* Main.storyboard */; };
 		FBE8A39E29823384005BE645 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBE8A39D29823384005BE645 /* Assets.xcassets */; };
 		FBE8A3A129823384005BE645 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBE8A39F29823384005BE645 /* LaunchScreen.storyboard */; };
-		FBE8A41629824036005BE645 /* ConnectionGateWaySAT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBE8A41129823F3C005BE645 /* ConnectionGateWaySAT.framework */; };
-		FBE8A41729824036005BE645 /* ConnectionGateWaySAT.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FBE8A41129823F3C005BE645 /* ConnectionGateWaySAT.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FBE8A43F29827AED005BE645 /* MiniAppServiceA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBE8A43E29827A34005BE645 /* MiniAppServiceA.framework */; };
 		FBE8A44029827AED005BE645 /* MiniAppServiceA.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FBE8A43E29827A34005BE645 /* MiniAppServiceA.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		FBE8A41029823F3C005BE645 /* PBXContainerItemProxy */ = {
+		FB86CE6D299DDC6400913EFF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = FBE8A40C29823F3C005BE645 /* ConnectionGateWaySAT.xcodeproj */;
+			containerPortal = FB86CE68299DDC6400913EFF /* MiniAppB.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = FBE8A35029822B7A005BE645;
-			remoteInfo = ConnectionGateWaySAT;
+			remoteGlobalIDString = FB86CDB5299DCA9500913EFF;
+			remoteInfo = MiniAppB;
+		};
+		FB86CE6F299DDC6400913EFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB86CE68299DDC6400913EFF /* MiniAppB.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FB86CE1C299DD1C000913EFF;
+			remoteInfo = StanAloneMiniAppB;
 		};
 		FBE8A43D29827A34005BE645 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -43,7 +52,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				FBE8A41729824036005BE645 /* ConnectionGateWaySAT.framework in Embed Frameworks */,
+				FB86CE67299DDC3400913EFF /* ConnectionGateWaySAT.framework in Embed Frameworks */,
+				FB86CE72299DDC6B00913EFF /* MiniAppB.framework in Embed Frameworks */,
 				FBE8A44029827AED005BE645 /* MiniAppServiceA.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -52,6 +62,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		FB86CE65299DDC3300913EFF /* ConnectionGateWaySAT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ConnectionGateWaySAT.framework; path = "../ConnectionGateWaySAT/build/ConnectionGateWaySAT.framework-iphonesimulator.xcarchive/Products/Library/Frameworks/ConnectionGateWaySAT.framework"; sourceTree = "<group>"; };
+		FB86CE68299DDC6400913EFF /* MiniAppB.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MiniAppB.xcodeproj; path = ../../MiniAppB/MiniAppB.xcodeproj; sourceTree = "<group>"; };
 		FBE8A39129823382005BE645 /* SuperApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBE8A39429823382005BE645 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FBE8A39629823382005BE645 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,7 +72,6 @@
 		FBE8A39D29823384005BE645 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FBE8A3A029823384005BE645 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FBE8A3A229823384005BE645 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FBE8A40C29823F3C005BE645 /* ConnectionGateWaySAT.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ConnectionGateWaySAT.xcodeproj; path = ../../ConnectionGateWaySAT/ConnectionGateWaySAT.xcodeproj; sourceTree = "<group>"; };
 		FBE8A43829827A34005BE645 /* MiniAppServiceA.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MiniAppServiceA.xcodeproj; path = ../../MiniAppServiceA/MiniAppServiceA.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -69,7 +80,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBE8A41629824036005BE645 /* ConnectionGateWaySAT.framework in Frameworks */,
+				FB86CE66299DDC3400913EFF /* ConnectionGateWaySAT.framework in Frameworks */,
+				FB86CE71299DDC6B00913EFF /* MiniAppB.framework in Frameworks */,
 				FBE8A43F29827AED005BE645 /* MiniAppServiceA.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -77,6 +89,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FB86CE69299DDC6400913EFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB86CE6E299DDC6400913EFF /* MiniAppB.framework */,
+				FB86CE70299DDC6400913EFF /* StanAloneMiniAppB.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		FBE8A38829823382005BE645 = {
 			isa = PBXGroup;
 			children = (
@@ -105,22 +126,15 @@
 				FBE8A39F29823384005BE645 /* LaunchScreen.storyboard */,
 				FBE8A3A229823384005BE645 /* Info.plist */,
 				FBE8A43829827A34005BE645 /* MiniAppServiceA.xcodeproj */,
-				FBE8A40C29823F3C005BE645 /* ConnectionGateWaySAT.xcodeproj */,
+				FB86CE68299DDC6400913EFF /* MiniAppB.xcodeproj */,
 			);
 			path = SuperApp;
-			sourceTree = "<group>";
-		};
-		FBE8A40D29823F3C005BE645 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				FBE8A41129823F3C005BE645 /* ConnectionGateWaySAT.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		FBE8A41229824029005BE645 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FB86CE65299DDC3300913EFF /* ConnectionGateWaySAT.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -182,8 +196,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = FBE8A40D29823F3C005BE645 /* Products */;
-					ProjectRef = FBE8A40C29823F3C005BE645 /* ConnectionGateWaySAT.xcodeproj */;
+					ProductGroup = FB86CE69299DDC6400913EFF /* Products */;
+					ProjectRef = FB86CE68299DDC6400913EFF /* MiniAppB.xcodeproj */;
 				},
 				{
 					ProductGroup = FBE8A43929827A34005BE645 /* Products */;
@@ -198,11 +212,18 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		FBE8A41129823F3C005BE645 /* ConnectionGateWaySAT.framework */ = {
+		FB86CE6E299DDC6400913EFF /* MiniAppB.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
-			path = ConnectionGateWaySAT.framework;
-			remoteRef = FBE8A41029823F3C005BE645 /* PBXContainerItemProxy */;
+			path = MiniAppB.framework;
+			remoteRef = FB86CE6D299DDC6400913EFF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FB86CE70299DDC6400913EFF /* StanAloneMiniAppB.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = StanAloneMiniAppB.app;
+			remoteRef = FB86CE6F299DDC6400913EFF /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		FBE8A43E29827A34005BE645 /* MiniAppServiceA.framework */ = {

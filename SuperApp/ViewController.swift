@@ -29,14 +29,14 @@ class ViewController: UIViewController {
     
     @IBAction func openMiniAppServiceB(_ sender: Any) {
 //        // 1. Init class by it's name
-//        guard let launcherClass = NSClassFromString("MiniAppService.LauncherService") as? ConnectionStandard.Type else {
-//            debugPrint("Init launcher class failed")
-//            return
-//        }
-//
-//        if let miniAppInputView = launcherClass.init().createInputViewController() {
-//            navigationController?.pushViewController(miniAppInputView, animated: true)
-//        }
+        guard let launcherClass = NSClassFromString("MiniAppB.LauncherService") as? ConnectionGateWaySAT.Type else {
+            debugPrint("Init launcher class failed")
+            return
+        }
+
+        if let miniAppInputView = launcherClass.init().createInputViewController() {
+            navigationController?.pushViewController(miniAppInputView, animated: true)
+        }
     }
 
 }
